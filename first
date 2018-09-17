@@ -1,4 +1,13 @@
-num1=input()
-num2=input()
-sum=int(num1)+int(num2)
-print(sum)
+import fileinput
+
+lines = []
+for line in fileinput.input():
+    lines.append(line)
+    
+    #sum here
+    sum=lines[0]+lines[1]
+    #print result
+    print(sum)
+    
+    #!/bin/sh
+python3 program.py
