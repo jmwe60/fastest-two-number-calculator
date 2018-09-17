@@ -7,7 +7,3 @@ for line in fileinput.input():
 int sum=int(lines[0]) + int(lines[1])
 
 print(sum)
-
-#!/bin/sh
-python3 first.py
-    
