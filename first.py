@@ -9,4 +9,4 @@ sum=lines[0]+lines[1]
 print(sum)
     
 #!/bin/sh
-python3 program.py
+python3 first.py
