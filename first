@@ -3,11 +3,10 @@ import fileinput
 lines = []
 for line in fileinput.input():
     lines.append(line)
+
+sum=lines[0]+lines[1]
+#print result
+print(sum)
     
-    #sum here
-    sum=lines[0]+lines[1]
-    #print result
-    print(sum)
-    
-    #!/bin/sh
+#!/bin/sh
 python3 program.py
